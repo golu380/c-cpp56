@@ -3,7 +3,7 @@ int main(){
 
     FILE * fp;
 
-    fp = fopen("data.txt","w");
+    fp = fopen("data.txt","a");
 
     if( fp == NULL){
         printf("there something wrong");
